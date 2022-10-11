@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+<style>
+    input{
+        width:250px; 
+        height: 25px; 
+       
+        color: red;  
+        }
+</style>
+
+
+
+</head>
+<body>
+    <table border="1" height="800" width="700" align="center"> 
+        <tr height="80">
+            <td width="100"></td>
+            <td width="600"></td>
+        </tr>
+        <tr height="50">
+            <td width="700" colspan="2">
+                <table height="50" width="700" border="1">
+                    <tr align="center">
+                        <td><a href="index.html"> Home</a></td>
+                        <td><a href="#"> About </a></td>
+                        <td><a href="registration.html"> Registration </a></td>
+                        <td><a href="#"> Contract </a></td>
+                        <td><a href="#">Help</a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr height="100">
+            <td width="700" colspan="2"></td>
+        </tr>
+        <tr height="550">
+            <td width="100"></td>
+            <td width="600">
+                <table height="550" width="600" border="1">
+                    <tr height="450">
+                        <td colspan="2" align="center">
+                            <form action="#" method="post">
+                                <h1>Registration form</h1>
+                            <label for="nam">Name:</label>
+                            <input type="text"  name="name" id="nam" placeholder="Enter your name" required>
+                            <br><br>
+                            <label for="phone">Phone:</label>
+                            <input type="number" name="number" id="phone" placeholder="Enter your phone" required>
+                            <br><br>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                            <br><br>
+                            <label for="pass">Password:</label>
+                            <input type="password" name="password" id="pass" placeholder="Enter your password " required>
+                            <br><br>
+                            <label for="gen">Gender</label>
+                            <input type="radio" name="male" id="gen">Male
+                            <input type="radio" name="female" id="gen">feMale
+                            <br><br>
+                            <label for="edu">Education:</label>
+                            <input type="checkbox" name="checkbox" id="edu">SSC
+                            <input type="checkbox" name="checkbox" id="edu">HSC
+                            <input type="checkbox" name="checkbox" id="edu">BSC
+                            <br><br>
+                            <select name="country" id="con">country
+                                <option>Select A city</option>
+                                <option value="dhaka">Dhaka</option>
+                                <option value="shariatpur">Shariatpur</option>
+                            </select>
+                            <br><br>
+                            <label for="date">Date</label>
+                            <input type="date">
+                            <br><br>
+                            <button type="submit">submit</button>
+                                <input type="reset">
+                        
+                        </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr height="50">
+            <td colspan="2"></td>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+   
+</body>
+</html>

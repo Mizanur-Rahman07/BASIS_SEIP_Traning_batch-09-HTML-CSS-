@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="main-image">
+        <img id="mainImage" src="assets/image/index.jpg">
+    </div>
+    <div class="sub-image">
+        <img src="assets/image/1.jpg" alt="" id="img1">
+        <img src="assets/image/2.jpg" alt="" id="img2">
+        <img src="assets/image/3.jpg" alt="" id="img3">
+        <img src="assets/image/1.jpg" alt="" id="img4">
+    </div>
+    <hr>
+    <hr>
+
+    <form>
+        <input type="text" id="firstName" onkeyup="fname()" placeholder="First Name"><br><br>
+        <input type="text" id="lastName" onkeyup="lname()" placeholder="Last name">
+    </form>
+    <hr>
+    <table border="1" height="150px" width="500px">
+        <tr height="60px">
+            <th>First name</th>
+            <th> Last name</th>
+            <th>Full name</th>
+        </tr>
+        <tr height="110px">
+            <td id="showfirstname"></td>
+            <td id="showLastname"></td>
+            <td id="showfullname" onclick="fullName()"></td>
+        </tr>
+    </table>
+    <script>
+
+        function fname() {
+            var fname = document.getElementById('firstName').value;
+            document.getElementById('showfirstname').innerText = fname;
+        }
+        function lname() {
+            var lname = document.getElementById('lastName').value;
+            document.getElementById('showLastname').innerText = lname;
+        }
+        function lname() {
+            var lname = document.getElementById('lastName').value;
+            document.getElementById('showLastname').innerText = lname;
+        }
+        function fullName() {
+            var res1 = document.getElementById('showfirstname').innerText;
+            var res2 = document.getElementById('showlastname').innerText;
+            document.getElementById('showfullname').innerHTML = res1 + '' + res2;
+        }
+
+    </script>
+
+
+    <script>
+
+        var mainImage = document.getElementById('mainImage');
+        var img1 = document.getElementById('img1');
+        img1.onclick = function () {
+
+            mainImage.setAttribute('src', this.getAttribute('src'));
+        }
+        var img2 = document.getElementById('img2');
+        img2.onclick = function () {
+            mainImage.setAttribute('src', this.getAttribute('src'));
+        }
+        var img3 = document.getElementById('img3');
+        img3.onclick = function () {
+            mainImage.setAttribute('src', this.getAttribute('src'));
+        }
+        var img4 = document.getElementById('img4');
+        img4.onclick = function () {
+            mainImage.setAttribute('src', this.getAttribute('src'));
+        }
+
+
+    </script>
+</body>
+
+</html>

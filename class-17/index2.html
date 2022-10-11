@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+</head>
+
+<body>
+    <div class="main-image">
+        <img id="mainImage" src="assets/image/index.jpg">
+    </div>
+    <div class="sub-image">
+        <img src="assets/image/1.jpg" alt="" class="subimg">
+        <img src="assets/image/2.jpg" alt="" class="subimg">
+        <img src="assets/image/3.jpg" alt="" class="subimg">
+        <img src="assets/image/1.jpg" alt="" class="subimg">
+    </div>
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script>
+        $('.subimg').click(function () {
+            var imgVar = $(this).attr('src');
+            $('#mainImage').attr('src', imgVar);
+        })
+    </script>
+</body>
+
+</html>

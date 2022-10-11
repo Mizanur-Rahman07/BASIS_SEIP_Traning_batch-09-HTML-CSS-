@@ -1,0 +1,18 @@
+
+.sub-image img {
+    height: 80px;
+    width: 80px;
+}
+
+.sub-image {
+    text-align: center;
+}
+
+.main-image {
+    text-align: center;
+}
+
+.main-image img {
+    height: 400px;
+    width: 650px;
+}

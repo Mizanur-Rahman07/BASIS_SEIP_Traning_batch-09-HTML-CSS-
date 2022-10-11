@@ -1,0 +1,106 @@
+.tableTest {
+    border: 1px solid gray;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    background-color: aquamarine;
+
+}
+
+.firstTr {
+    height: 50px;
+    width: 600px;
+    border: 1px solid gray;
+}
+
+.firstTd {
+    height: 50px;
+    width: 100px;
+    border: 1px solid gray;
+}
+
+.scndTd {
+    height: 50px;
+    width: 600px;
+    border: 1px solid gray;
+}
+
+/* .scndTr{
+    height: 50px;
+    width: 600px;
+    border: 1px solid gray;
+} */
+.thirdTd {
+    width: 600px;
+    height: 50px;
+    border: 1px solid gray;
+
+}
+
+.fourTd {
+    width: 100px;
+    border: 1px solid gray;
+
+}
+
+
+.fiveTd {
+    height: 20px;
+    width: 600px;
+    border: 1px solid gray;
+
+}
+
+/* ------------------- */
+
+.wrapper {
+    width: 600px;
+    margin: auto;
+    border: 1px solid gray;
+    height: auto;
+    background-color: bisque;
+}
+
+.row {
+    width: 600px;
+    border-bottom: 1px solid gray;
+    border: 1px solid gray;
+}
+
+.col-md-2 {
+    width: 100px;
+    height: auto;
+
+}
+
+.col-md-10 {
+    height: 100px;
+    width: 499px;
+}
+
+.col-md-12 {
+    width: 600px;
+    height: 80px;
+}
+
+.firstdiv {
+    height: 100px;
+    border-right: 1px solid gray;
+    float: left;
+}
+
+.fourdiv {
+    width: 100px;
+    height: 500px;
+    border-right: 1px solid gray;
+    float: left;
+    /* background-image: url(./image/download.jfif) ;
+background-repeat: no-repeat; */
+}
+
+.fivediv {
+    width: 499px;
+    height: 500px;
+    /* background-image: url(./image/download.jfif) ;
+background-repeat: no-repeat; */
+}

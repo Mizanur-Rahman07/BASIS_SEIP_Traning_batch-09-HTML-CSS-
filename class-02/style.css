@@ -1,0 +1,63 @@
+.test_class {
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.value {
+    margin-left: 80px;
+    color: red;
+}
+
+.first_border {
+    background-color: black;
+}
+
+.second_border {
+    background-color: aquamarine;
+}
+
+.test_class2 {
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.tbl2Class {
+    height: 50px;
+}
+
+.tbl2class1 {
+    width: 60px;
+    border: 1px solid;
+    background-color: black;
+
+}
+
+.tbl2class2 {
+    border: 1px solid;
+    background-color: rgb(190, 148, 148);
+}
+
+.tbl2class3 {
+    width: 100px;
+    border: 1px solid;
+    background-color: rgb(66, 28, 28);
+    height: 150px;
+}
+.tbl2class4{
+    height: 150px;
+    background-color: aqua;
+}
+
+.tbl2class5{
+    background-color: beige;
+}
+.test_class3{
+    border: 1px solid;
+    margin: 0 auto;
+    margin-top: 30px;
+}

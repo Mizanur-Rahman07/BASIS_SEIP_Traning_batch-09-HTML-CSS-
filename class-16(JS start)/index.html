@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+</head>
+
+<body>
+
+    <h1 id="demo">Hello Word</h1>
+    <h1 id="demo2"></h1>
+    <script>
+        let a = document.getElementById('demo').innerHTML = "Are you ready .. "
+        alert(a);
+        console.log(a);
+        document.write(a);
+
+    </script>
+
+    <form>
+        <input type="text" onkeyup ="fullName()" id="fName"><br><br>
+        
+        <input type="text" id="fName"><br><br>
+        <input type="text" id="lName"><br><br>
+        <input onclick="fullName()" value="submit">
+    </form>
+    <script>
+        function fullName() {
+            let fName = document.getElementById('fName').value;
+            let lName = document.getElementById('lName').value;
+            document.getElementById('demo2').innerHTML = fName+' '+lName
+        }
+    </script>
+</body>
+
+</html>
